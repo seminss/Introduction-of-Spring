@@ -5,43 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="353605e7-00e9-4b01-a441-2577eb2d6bba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/core.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/MemberApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/memberServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/6.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/6.8/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/configuration-cache/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/src/main/java/hello/core/CoreApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core/src/test/java/hello/core/CoreApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +83,33 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MemberApp">
+    <configuration name="CoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.core.CoreApplication" />
+      <module name="core.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.core.MemberApp" />
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -131,8 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="memberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.member" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.member.memberServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberApp" />
+        <item itemvalue="Application.CoreApplication" />
+        <item itemvalue="JUnit.memberServiceTest" />
         <item itemvalue="JUnit.CoreApplicationTests" />
       </list>
     </recent_temporary>
@@ -158,6 +170,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -166,6 +179,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/hello/core/CoreApplicationTests.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hello/core/CoreApplication.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hello/core/MemberApp.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
