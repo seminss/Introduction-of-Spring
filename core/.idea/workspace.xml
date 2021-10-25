@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="353605e7-00e9-4b01-a441-2577eb2d6bba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/order/OverServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,6 +81,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hello.core.order" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.MemberApp">
     <configuration name="CoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
