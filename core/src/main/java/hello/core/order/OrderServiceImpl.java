@@ -2,13 +2,17 @@ package hello.core.order;
 
 import hello.core.discount.DiscountPolicy;
 import hello.core.discount.FixDiscountPolicy;
+import hello.core.discount.RateDiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService{
     private final MemberRepository memberRepository= new MemoryMemberRepository();
-    private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
+    //이전까지는 DiscountPolicy 뿐만 아니라 FixDiscountPolicy 구체 클래스도 함께 의존하고 있었다.
+    //때문에 FixDiscountPolicy를 RateDiscountPolicy로 변경하는 순간 OrderServiceImpl의 소스코드도
+    //함께 변경해야 한다(OCP 위반)
+    private final DiscountPolicy discountPolicy; //인터페이스에만 의존하도록 변경
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
