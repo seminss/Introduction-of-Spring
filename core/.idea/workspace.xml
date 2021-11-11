@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="353605e7-00e9-4b01-a441-2577eb2d6bba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextInfoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderApp">
+  <component name="RunManager" selected="JUnit.ApplicationContextInfoTest.findApplicationBean">
     <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.core.MemberApp" />
       <module name="core.main" />
@@ -124,6 +122,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplicationContextInfoTest.findAllBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.beanfind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextInfoTest" />
+      <option name="METHOD_NAME" value="findAllBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextInfoTest.findApplicationBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.beanfind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextInfoTest" />
+      <option name="METHOD_NAME" value="findApplicationBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -139,43 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.member" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.member.MemberServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.order" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApplicationContextInfoTest.findApplicationBean" />
+        <item itemvalue="JUnit.ApplicationContextInfoTest.findAllBean" />
         <item itemvalue="Application.OrderApp" />
         <item itemvalue="Application.MemberApp" />
         <item itemvalue="JUnit.CoreApplicationTests" />
-        <item itemvalue="JUnit.OrderServiceTest" />
-        <item itemvalue="JUnit.MemberServiceTest" />
       </list>
     </recent_temporary>
   </component>
